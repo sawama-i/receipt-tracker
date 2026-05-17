@@ -94,11 +94,25 @@
   （「レシートの「合計」「小計」のうち最も大きな金額。消費税込みの金額を抽出。」を明示）
 - エラーハンドリング追加：JSONパース失敗時のログ出力
 
-## 次のステップ
+### スプリント4（2026/05/09）
+- React環境セットアップ（Vite + Tailwind CSS v3）
+- 画像アップロードフォーム実装（ReceiptUploadForm）
+- CORS対応（API Gateway OPTIONS + Lambda headers）
 
-- [ ] React UIの作成
-- [ ] CDK/SAMでインフラコード化
-- [ ] 商品別OCR対応
+### スプリント5（2026/05/10）
+- レシート一覧表示実装（ReceiptList）
+- 商品別カテゴリ編集機能実装（PATCH /update-item）
+- 月別集計表示実装（MonthlySummary）
+- コンポーネント分割（ReceiptUploadForm / ReceiptList / MonthlySummary） 
+
+## 次のステップ
+~~- [ ] React UIの作成~~
+~~- [ ] CDK/SAMでインフラコード化~~
+~~- [ ] 商品別OCR対応~~
+~~- [ ] 精算金額の自動計算~~
+- [ ] GSI追加（年月でのクエリを高速化）
+- [ ] インフラコード化（CDK/SAM）
+- [ ] エラーハンドリング強化
 - [ ] 精算金額の自動計算
 
 ## 関連記事
